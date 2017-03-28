@@ -6,13 +6,13 @@
     "email": "benichmt1@protonmail.com",
     "phone": "808-333-4444",
     "website": "https://benichmt1.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "summary": "Information Security Consultant at SecureState.",
     "location": {
       "address": "",
       "postalCode": "96822",
-      "city": "Honolulu",
+      "city": "Cleveland",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Ohio"
     },
     "profiles": [
       {
@@ -46,12 +46,12 @@
       ]
     },
     {
-      "name": "data mining",
+      "name": "penetration testing",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "incident response",
       "keywords": [
       ]
     }
