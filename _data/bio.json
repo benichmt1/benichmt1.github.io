@@ -17,18 +17,18 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "benichmt1",
+        "url": "http://github.com/benichmt1"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "michaelbenich",
+        "url": "http://linkedin.com/in/michaelbenich"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "benichmt1",
+        "url": "http://twitter.com/benichmt1"
       },
       {
         "network": "instagram",
