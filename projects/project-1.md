@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: NEOCTF
 permalink: projects/micromouse
 date: 2015
 labels:
