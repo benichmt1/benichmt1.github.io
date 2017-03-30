@@ -1,29 +1,25 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: NEOCTF
-permalink: projects/micromouse
+image: https://github.com/securestate/king-phisher-templates/raw/master/Email_Templates/Shell/Ticket_Raffle/preview.png
+title: KingPhisher Template
+permalink: projects/kingphisher
 date: 2015
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Security
+  - Phishing
+  - VBA
+summary: Created various public and internal King Phisher templates
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+KingPhisher is an open-source tool developed by members of SecureState. In order to extend the functionality of this application, I created several Excel templates that were designed to deliver a Powershell Empire payload while bypassing typical antivirus controls. One template made publicly available was a raffle ticket template, where users press a button to generate a number but a powershell payload is dropped silently in the background.
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+At the time of testing, email filters were flagging on the Auto_Open() functionality of a macro. By creating a button to perform the action, the payload was able to slip past the automatic testing of certain vendors.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+[Blog post](https://warroom.securestate.com/bypassing-gmails-malicious-macro-signatures/)
+[Reddit discussion](https://www.reddit.com/r/netsec/comments/4tkwp6/bypassing_gmails_malicious_attachment_filter_with/)
+[Github Page](https://github.com/securestate/king-phisher-templates/tree/master/Email_Templates/Shell/Ticket_Raffle)
 
 
 
