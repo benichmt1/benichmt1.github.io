@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/raffle.png
+image: images/king-phisher-logo.png
 title: KingPhisher Template
 permalink: projects/kingphisher
 date: 2015
