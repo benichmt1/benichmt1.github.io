@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://github.com/securestate/king-phisher-templates/raw/master/Email_Templates/Shell/Ticket_Raffle/preview.png
+image: images/raffle.png
 title: KingPhisher Template
 permalink: projects/kingphisher
 date: 2015
@@ -9,6 +9,7 @@ labels:
   - Security
   - Phishing
   - VBA
+  - Powershell
 summary: Created various public and internal King Phisher templates
 ---
 
@@ -18,8 +19,10 @@ At the time of testing, email filters were flagging on the Auto_Open() functiona
 
 
 [Blog post](https://warroom.securestate.com/bypassing-gmails-malicious-macro-signatures/)
+
 [Reddit discussion](https://www.reddit.com/r/netsec/comments/4tkwp6/bypassing_gmails_malicious_attachment_filter_with/)
-[Github Page](https://github.com/securestate/king-phisher-templates/tree/master/Email_Templates/Shell/Ticket_Raffle)
+
+<a href="https://github.com/securestate/king-phisher-templates/tree/master/Email_Templates/Shell/Ticket_Raffle"><i class="large github icon"></i>Github</a>
 
 
 
