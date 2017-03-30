@@ -2,23 +2,28 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+title: Powershell Empire
+permalink: projects/empire
 date: 2015
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Python
+  - Powershell
+summary: Various contributions to the PsEmpire project, an offensive Powershell framework.
 ---
 
+## MS16-032
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+MS16-032 is a Windows privilege escalation exploit that I adapted to work with Powershell Empire. Although I did not create the proof of concept or the official module, I modified the concept in such a way that it could be loaded as an external source from the framework.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+[Blog post](https://warroom.securestate.com/leveraging-ms16-032-powershell-empire/)
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+[Reddit discussion](https://www.reddit.com/r/netsec/comments/4rique/leveraging_ms16032_with_powershell_empire/)
+
+<a href="https://gist.github.com/benichmt1/af52401c7f2d6984dea6ba60b44aa1aa#file-ms16-032-ps1"><i class="large github icon"></i>Github</a>
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+## WLMDR Licensing Balloon Module
+
+Created a module for Empire that can be used for social engineering attempts. This module utilizes the Windows logon reminder service to launch a customized balloon reminder in a user's taskbar.
+
+<a href="https://github.com/EmpireProject/Empire/pull/447"><i class="large github icon"></i>Github</a>
