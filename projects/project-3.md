@@ -1,60 +1,32 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
-date: 2014
+image: images/cve.jpg
+title: Published Vulnerabilities
+permalink: projects/exploits
+date: 2017
 labels:
-  - Lisp
+  - Exploit
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: A collection of CVE and other bug reports I have published
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+## CVE-2017-6443
+### Date: 2017-03-03
+Persistent XSS in EPSON TMNet WebConfig Ver. 1.00
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+[Mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6443)
 
-To give you a flavor of the game, here is an excerpt from one run:
+[Exploit-db](https://www.exploit-db.com/exploits/41502/)
 
-<hr>
+[Full Disclosure Mailing List](http://seclists.org/fulldisclosure/2017/Mar/5)
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+## CVE-2017-6550
+### Date: 2017-03-10
+Kinsey Infor-Lawson - Multiple SQL Injections
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+[Mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6550)
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+[Exploit-db](https://www.exploit-db.com/exploits/41577/)
 
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+[Full Disclosure Mailing List](http://seclists.org/fulldisclosure/2017/Mar/31)
