@@ -30,3 +30,16 @@ Kinsey Infor-Lawson - Multiple SQL Injections
 [Exploit-db](https://www.exploit-db.com/exploits/41577/)
 
 [Full Disclosure Mailing List](http://seclists.org/fulldisclosure/2017/Mar/31)
+
+## OpenBugBounty Thanks / HoF
+
+[Chegg.com - Alexa rank 2178](https://www.openbugbounty.org/incidents/144089/)
+
+[Seriouseats.com - Alexa Rank 2725](https://www.openbugbounty.org/incidents/67129/)
+
+[Sli.mg - Alexa Rank 3642](https://www.openbugbounty.org/incidents/163077/)
+
+[Webassign.net - Alexa Rank 9550](https://www.openbugbounty.org/incidents/71348/)
+
+[Si.Umich.edu](https://www.openbugbounty.org/incidents/196625/)
+
