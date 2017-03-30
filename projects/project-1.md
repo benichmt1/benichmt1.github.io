@@ -14,7 +14,7 @@ summary: Created various public and internal King Phisher templates
 ---
 
 # Excel Maldoc Templates
-
+<img class="ui medium right floated rounded image" src="../images/raffle.png">
 KingPhisher is an open-source tool developed by members of SecureState. In order to extend the functionality of this application, I created several Excel templates that were designed to deliver a Powershell Empire payload while bypassing typical antivirus controls. One template made publicly available was a raffle ticket template, where users press a button to generate a number but a powershell payload is dropped silently in the background.
 
 At the time of testing, email filters were flagging on the Auto_Open() functionality of a macro. By creating a button to perform the action, the payload was able to slip past the automatic testing of certain vendors.
