@@ -28,3 +28,10 @@ MS16-032 is a Windows privilege escalation exploit that I adapted to work with P
 Created a module for Empire that can be used for social engineering attempts. This module utilizes the Windows logon reminder service to launch a customized balloon reminder in a user's taskbar.
 
 <a href="https://github.com/EmpireProject/Empire/pull/447"><i class="large github icon"></i>Github</a>
+
+## Get_Subnet_Ranges Module
+
+<img class="ui medium right floated rounded image" src="../images/wlrmdr.png">
+Added recon module for discovering subnets based on AD information. The script pulls domain computers, resolves their DNS, determines if they are reachable, and then categorizes them into subnets.
+
+<a href="https://github.com/EmpireProject/Empire/pull/1103"><i class="large github icon"></i>Github</a>
